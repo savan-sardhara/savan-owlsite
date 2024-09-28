@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+body {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/* Menu header sectiopn */
+
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #1CCACD;
+    justify-content: space-between;
+    height: 71px;
+    color: RGB(255, 255, 255);
+    font-weight: 300;
+    font-family: "Lato";
+}
+
+.sitename a {
+    color: white;
+    text-decoration: none;
+}
+
+.sitename {
+    margin-left: 15%;
+    font-style: italic;
+    font-size: 24px;
+}
+
+.menue ul {
+    /* border: solid 2px black; */
+    display: flex;
+    align-items: center;
+    width: 400px;
+    height: 40px;
+    margin-right: 200px;
+    justify-content: space-evenly;
+    list-style-type: none;
+    position: relative;
+}
+
+.menue li a {
+    opacity: 0.8;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 400;
+    color: white;
+}
+
+.menue li img {
+    border-radius: 50%;
+    background-color: rgb(235, 74, 74);
+    border: solid 2px white;
+    height: 5px;
+    padding: 4px;
+    position: absolute;
+    top: 0;
+}
+
+.menue li a.active {
+    opacity: 1;
+}
+/* 
+.menue li a:focus,
+.menue li a:active {
+    opacity: 1;
+} */
+
+/* Demos div */
+
+.demodiv{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: #f5f3f3;
+    font-size: 30px;
+    padding: 0;
+}
+
+.demodiv h3{
+    /* border: solid 2px red; */
+    margin-left: 15%;
+    color:#0e0a0a;
+    font-family: "lato";
+    font-size: 40px;
+    font-weight: 300;
+
+}
+
+/* main body */
+
+.container{
+    /* border: solid 2px red; */
+    display: flex;
+    width: 100%;
+    margin-top: 60px;
+
+}
+
+.mainleft{
+    /* border: solid 2px blue; */
+    width: 30%;
+}
+
+.mainright{
+    /* border: solid 2px orange; */
+    width: 70%;
+}
+
+
+/* Left side container */
+
+.leftcontent{
+    /* border: solid 2px pink; */
+    display: flex;
+    font-family: "Lato", "Helvetica Neue", "Helvetica", "Helvetica", "Arial", "sans-serif";
+    flex-direction: column;
+    text-align: right;
+    align-items: flex-end;
+}
+
+.leftcontent a{
+    /* border: solid 2px black; */
+    text-decoration: none;
+    color: rgb(62, 61, 61);
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 40px 10px 8px;
+    width:30% ;
+    font-size: 400;
+}
+
+.leftcontent a:hover{
+    transition: all 0.8 ease-in-out;
+    background-color: rgba(164, 160, 160, 0.112);
+    color: #0e0a0a;
+}
+
+.leftcontent h4{
+    /* border: solid 2px red; */
+    width:40% ;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+
+
+/* Right side content */
+
+.rightcontent{
+    /* border: solid 2px purple; */
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    font-family: "Lato", "Helvetica Neue", "Helvetica", "Helvetica", "Arial", "sans-serif";
+    margin: 10px 10px 10px 20px;
+    width: 70%;
+}
+
+.rightcontent h2{
+    display: flex;
+    /* border: solid 2px yellowgreen; */
+    justify-content: flex-start;
+    align-content: flex-start;
+    margin-top: 0;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.no p{
+    display: flex;
+    align-items: center;
+    /* border: solid 2px yellow; */
+    border-left: solid 10px turquoise;
+    font-weight: 400;
+    color: #afafaf;
+    font-size: 19px;
+    margin: 0 0 0 0;
+    padding: 0 0 0 10px;
+    height: 70px;
+}
+
+.rightcontent h3{
+    font-size: 30px;
+    font-weight: 400;
+    margin: 40px 0 10px 0;
+}
+
+.rightcontent ul{
+    /* border: solid 2px purple; */
+    padding: 10px;
+}
+
+.rightcontent p{
+    /* width: 70%; */
+    text-align: justify;
+}
+
+.rightcontent li{
+    margin: 6px;
+}
+
+.rightcontent a{
+    text-decoration: none;
+    color: #1CCACD;
+}
+
+.code{
+    background-color: whitesmoke;
+    margin: 0 40px 20px 0;
+    font-size: 15px;
+    overflow-x: scroll;
+    border: solid 2px rgb(179, 179, 179);
+}
+
+/* Footer  */
+
+
+.tweet {
+    /* border: solid 2px orange; */
+    display: flex;
+    width: 100%;
+    height: 100px;
+    margin-top: 60px;
+    background-color: aliceblue;
+    justify-content: center;
+    font-family: "lato";
+    align-items: center;
+}
+
+.tweet a {
+    color: #1CCACD;
+    text-decoration: none;
+    font-weight: 400;
+    margin-right: 10px;
+}
